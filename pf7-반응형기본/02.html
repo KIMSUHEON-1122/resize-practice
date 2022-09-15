@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 기초 - 미디어쿼리</title>
+    <style>
+        body {
+            background-color: skyblue;
+        }
+        /* 화면이 세로일 때 */
+        @media screen and (orientation : portrait){
+            body{
+                background: violet;
+                padding: 100px 10px;
+            }
+        }
+        /* 화면이 가로일 때 */
+        @media screen and (orientation : landscape){
+            body{
+                background: olivedrab;
+                padding: 10px 50px;
+                color: rgb(179, 177, 177);
+            }
+        }
+        /* 태블릿 상태 768 ~ 1024 */
+        @media screen and (min-width:768px) and (max-width:1023px){
+            body{
+                background-color: rosybrown;
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet,</h1>
+    <p>consectetur adipiscing elit. Quisque dictum porttitor blandit. Nulla cursus leo nec tellus auctor malesuada vitae
+        quis erat. Duis id metus sed risus ultricies dictum. Donec molestie et quam at pulvinar. Quisque sed commodo
+        felis,
+        vel malesuada ante. Proin molestie lacus sed tellus venenatis, et convallis diam tincidunt. Vivamus eros enim,
+        rhoncus non porta laoreet, hendrerit at ipsum. Curabitur finibus lobortis orci, vitae eleifend nibh consequat
+        placerat. Sed ac lacus et sapien tempus pulvinar. Pellentesque sed velit auctor, venenatis orci in, pulvinar
+        sem.
+    </p>
+    <p> Ut nunc sem, malesuada vitae ante et, eleifend mollis turpis. Mauris cursus quis sem in malesuada. Suspendisse
+        potenti. Aenean semper vel eros quis pellentesque. In in lorem urna. Phasellus quis purus non purus varius
+        sollicitudin vitae et nisi. Donec consectetur dignissim libero, ut commodo sem porttitor vel. Vivamus id orci
+        neque.
+        Donec nisi ipsum, aliquam vitae mollis a, consequat eu ligula. Praesent tempus, mauris sed dapibus volutpat,
+        tortor
+        diam pharetra libero, sit amet fringilla enim urna vel nisl.
+    </p>
+    <p> Integer et tincidunt quam. Phasellus eleifend pulvinar tincidunt. Nam ultricies, nisi eu imperdiet bibendum,
+        risus
+        turpis varius libero, eu maximus sem lacus vitae diam. Donec faucibus tincidunt magna sit amet efficitur.
+        Quisque
+        nec nulla rhoncus, hendrerit risus in, scelerisque leo. Integer vel ultrices dolor. In varius orci a rhoncus
+        pulvinar. Mauris at tempor nisi. Duis quis nisl neque. Fusce ut quam tincidunt, posuere turpis ultrices,
+        fringilla
+        ligula. Vivamus dignissim enim at odio accumsan, sit amet tempor mauris aliquam. Praesent laoreet placerat nibh
+        posuere scelerisque. Mauris vel aliquam erat. Etiam semper pretium nulla, vitae varius turpis malesuada eu.
+    </p>
+    <p> Nam tempor, felis nec efficitur pellentesque, sapien lacus pellentesque lectus, eget vehicula magna lorem vel
+        tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est sem, dignissim at tincidunt non,
+        egestas ut
+        risus. Quisque vulputate, enim pretium auctor aliquet, magna nunc congue eros, ut tristique nulla nisi non
+        turpis.
+        Praesent a mauris sit amet quam aliquet bibendum sollicitudin eu ex. Sed vel molestie metus. Pellentesque
+        fermentum
+        ex non nulla vulputate, vel iaculis sapien vulputate. In convallis interdum tortor, quis rutrum sapien placerat
+        imperdiet. Praesent cursus magna massa, id dignissim justo pretium non. Pellentesque habitant morbi tristique
+        senectus et netus et malesuada fames ac turpis egestas.</p>
+
+    <p> Ut et luctus lectus. Sed vulputate euismod libero, in maximus lorem. Donec ut porta enim. Vivamus consequat,
+        erat eu
+        euismod scelerisque, est nisl sollicitudin lectus, quis dictum nulla ex et odio. Aliquam porttitor augue velit,
+        sit
+        amet mattis nisi rhoncus a. Maecenas mollis at tellus non efficitur. Phasellus finibus laoreet lacus, sit amet
+        efficitur magna posuere pharetra. Donec sagittis ullamcorper ligula at auctor. Duis vel sagittis odio. Phasellus
+        viverra sagittis auctor. Quisque sem diam, lacinia sed accumsan vel, dapibus nec odio. Integer vitae dapibus
+        dui. Ut
+        dapibus libero at sapien sodales venenatis. Donec erat turpis, interdum et erat in, convallis dignissim mi.
+        Nulla
+        justo lacus, lobortis quis magna ut, venenatis mollis sapien.</p>
+
+</body>
+
+</html>
